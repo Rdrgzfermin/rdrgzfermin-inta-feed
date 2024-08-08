@@ -2,6 +2,36 @@ div.switch-icons{
     display: flex;
     justify-content: center;
 }
+div {
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+div.post{
+    background: white;
+    margin: 10px;
+}
+div.post img{
+    width:100%;
+}
+div.post .post-header div:first-child{
+    display:inline-block;
+    width:80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.post h1, div.post p{
+    padding:10px;
+    margin:0;
+}
 div.container{
-    padding-bottom: 45px;
+    width: 600px;
+    margin: auto;
 }
